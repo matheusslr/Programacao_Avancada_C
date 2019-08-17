@@ -21,12 +21,12 @@ int main() {
   temp = 26.5;
   p2 = &temp;
   *p2 = 29.0;
-  printf("%.1f \n", temp);      //R:esperava-se o valor de temp=26.5, mas o resultado foi o valor de p2=29,0.
+  printf("%.1f \n", temp);      //R:29.0
 
   /* (c) */
   p3 = &nome[0];
   aux = *p3;
-  printf("%c \n", aux);         //R:imprime o caractere que tem o código ASCII correspondente ao valor dado
+  printf("%c \n", aux);         //R:imprime o caractere que tem o cÃ³digo ASCII correspondente ao valor dado
 
   /* (d) */
   p3 = &nome[4];
@@ -70,7 +70,7 @@ int main() {
 
   /* (m) */
   p5 = &vetor[2] - 1;
-  printf("%d \n", *p5);         //R:Resultado igual a 45. Decresceu o endereço da memoria em 4 bytes, chegando no endereço do vetor 'vector'  indice 1.
+  printf("%d \n", *p5);         //R:Resultado igual a 45. Decresceu o endereÃ§o da memoria em 4 bytes, chegando no endereÃ§o do vetor 'vector'  indice 1.
 
   /* (n) */
   p5++;
