@@ -8,7 +8,7 @@ int main(){
     q = &j;
     p = &*&i;
     //i = (*&)j;
-    i = *&j;        //R:Unica atribuição ilegal ilegal é i=(*&)j;
+    i = *&j;        //Unica atribuiÃ§Ã£o ilegal: i=(*&)j.
     i = *&*&j;
     q = *p;
     i = (*p)++ + *q;
