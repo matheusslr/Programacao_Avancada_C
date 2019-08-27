@@ -8,7 +8,7 @@ void DesenhaEsfera(char ***matriz){
     for (i=0; i<16; i++){
         for(j=0; j<16; j++){
             for(k=0; k<16; k++){
-                if(((pow((i-8),2)+pow((j-8),2)+pow((k-8),2))<=36)){
+                if(((pow((i-8),2)+pow((j-8),2)+pow((k-8),2))<=0)){
                         matriz[i][j][k]=1;
                    }
             }
